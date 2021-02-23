@@ -1,0 +1,378 @@
+body {
+  font-family: "Inter", sans-serif;
+}
+.header {
+  width: 100%;
+  background: #2f2747;
+}
+.nav {
+  width: 90%;
+  display: flex;
+  height: 75px;
+  margin: auto;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav__bar {
+  display: none;
+}
+.logo__img {
+  height: 60px;
+}
+.nav__ul {
+  display: flex;
+}
+.nav__ul li {
+  list-style: none;
+  margin-right: 10px;
+}
+.nav__ul a {
+  text-decoration: none;
+  color: #9efef3;
+  font-size: 1rem;
+  padding: 7px 15px;
+  border-radius: 6px;
+}
+.nav__ul :is(li a):hover {
+  color: #4ced69;
+  background: rgba(0, 0, 0, 0.04);
+}
+
+.container__ZP {
+  width: 100%;
+  background: #f0ffff;
+  padding: 139px 0;
+}
+.section__ZP {
+  width: 90%;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  gap: 10%;
+  color: #2f2747;
+  display: flex;
+}
+.logo {
+    max-width: 100%;
+}
+
+.section__text {
+  grid-column: 1 / span 4;
+  text-align: center;
+}
+.logo__text {
+  font-size: 3.2rem;
+  font-weight: 400;
+  margin-bottom: 40px;
+}
+.logo__text--img {
+  height: 40px;
+}
+.paragraph {
+  line-height: 2;
+  margin-bottom: 10px;
+}
+.siguenos {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.butoon__social {
+  padding: 12px 20px;
+  border-radius: 12px;
+  border: 3px solid #2f2747;
+  background: #fff;
+  margin-right: 5px;
+  color: #2f2747;
+  font-size: 1rem;
+  cursor: pointer;
+}
+.butoon__social:hover {
+  background: #2f2747;
+  color: #fff;
+}
+
+.fab {
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.section__services {
+  width: 100%;
+  color: #2f2747;
+  padding: 100px 0;
+}
+.services__texts {
+  width: 90%;
+  margin: auto;
+  text-align: center;
+}
+.service__title {
+  font-size: 1.8rem;
+  margin-bottom: 30px;
+}
+.service__paragraph {
+  margin-bottom: 50px;
+}
+.conatiner__services {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  text-align: center;
+  gap: 30px;
+}
+.fas {
+  font-size: 5rem;
+  margin-bottom: 20px;
+}
+.servCont__title {
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.servCont__paragraph {
+  line-height: 2;
+}
+
+.section__btn {
+  width: 90%;
+  margin: auto;
+  text-align: center;
+  margin-top: 40px;
+}
+.btn {
+  padding: 12px 15px;
+  border: 3px solid #2f2747;
+  border-radius: 4px;
+  background: #fff;
+  font-size: 1.1rem;
+  color: #2f2747;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #2f2747;
+  color: #fff;
+}
+
+.section__sobreZP {
+  background: #f0ffff;
+  width: 100%;
+  color: #2f2747;
+  padding: 140px 0;
+}
+.container__sobreZP {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 90%;
+  margin: auto;
+  gap: 50px;
+  align-items: center;
+}
+.figure__picture {
+  text-align: center;
+}
+.sobreZP__img {
+  height: 400px;
+}
+.sobreZP__title {
+  font-size: 2rem;
+  margin-bottom: 30px;
+}
+.sobreZP__paragraph {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+.section__comments {
+  color: #2f2747;
+  width: 100%;
+  padding: 130px 0;
+}
+.comment__title {
+  text-align: center;
+  margin-bottom: 80px;
+}
+.container__comments {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  text-align: center;
+}
+.user {
+  display: flex;
+  align-items: center;
+}
+.comment__texts {
+  display: flex;
+  flex-direction: column;
+  margin-left: 30px;
+}
+.comment__img {
+  border-radius: 50%;
+  height: 200px;
+}
+.comment__subtitle {
+  font-size: 1.6rem;
+  margin-bottom: 3px;
+}
+.comment__paragraph {
+  margin-bottom: 5px;
+}
+
+.section__idea {
+  width: 100%;
+  padding: 100px 0;
+  background: #a3ffff;
+  color: #2f2747;
+}
+.container__idea {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.idea__title {
+  font-size: 2rem;
+  margin-bottom: 30px;
+}
+
+.idea__cta {
+  padding: 12px 15px;
+  border: 3px solid #2f2747;
+  border-radius: 5px;
+  background: #a3ffff;
+  color: #2f2747;
+  cursor: pointer;
+}
+.idea__cta:hover {
+  background: #2f2747;
+  color: #fff;
+}
+
+.footer {
+  width: 100%;
+  padding: 80px 0;
+  background-color: #454165;
+}
+.container__footer {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  align-items: center;
+}
+.footer__social {
+  font-size: 2rem;
+  color: #9efeff;
+  cursor: pointer;
+}
+
+.footer__social .fab {
+  margin-right: 20px;
+}
+.empresa__footer {
+    font-size: 1rem;
+    color: #fff;
+    font-weight: 400;
+}
+
+.footer__social i:hover {
+  color: #4ced69;
+}
+
+@media screen and (max-width: 950px) {
+  .nav__ul {
+    display: none;
+  }
+  .nav__bar {
+    display: block;
+    color: #fff;
+  }
+  .nav__bar i {
+    font-size: 2.7rem;
+    color: #fff;
+  }
+  .section__ZP {
+    flex-wrap: wrap;
+  }
+  .logo {
+    margin-bottom: 30px;
+    width: 70%;;
+    height: auto;
+  }
+  .logo__main{
+      text-align: center;
+  }
+  .logo__text {
+    font-size: 2rem;
+    font-weight: 400;
+    margin-bottom: 40px;
+  }
+  .logo__text--img {
+    height: 30px;
+  }
+  .container__button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .butoon__social {
+    margin-bottom: 13px;
+    width: 80%;
+    margin: 12px auto;
+  }
+  .conatiner__services {
+    flex-wrap: wrap;
+  }
+  .container__sobreZP {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .container__comments {
+    flex-wrap: wrap;
+  }
+  .sobreZP__img{
+    margin-bottom: 30px;
+    width: 70%;;
+    height: auto;
+  }
+  .user {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .comment__texts {
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    margin-bottom: 30px;
+  }
+  .comment__img {
+    margin-bottom: 30px;
+  }
+  .container__idea {
+    flex-wrap: wrap;
+    text-align: center;
+  }
+  .idea__cta {
+    margin-top: 30px;
+  }
+  .container__footer {
+    flex-direction: column;
+  }
+  .footer__social {
+    margin-bottom: 20px;
+  }
+  .footer__social .fab {
+    margin-right: 0;
+  }
+  .empresa__footer {
+      margin-bottom: 15px;
+  }
+  
+}
